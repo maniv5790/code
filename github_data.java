@@ -37,6 +37,8 @@ public class github_data {
 							    }
 							} catch (IOException e) {
 								System.out.println("exception occured"+e);
+								System.out.println("Not Able to download the data for the said date");
+								System.exit(0);
 							}
 			
 				}
